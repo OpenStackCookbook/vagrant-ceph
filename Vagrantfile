@@ -49,9 +49,11 @@ Vagrant.configure("2") do |config|
 
       config.vm.define "#{hostname}" do |box|
         box.vm.hostname = "#{hostname}.cook.book"
-        box.vm.network :private_network, ip: "172.16.0.#{ip_start+i}", :netmask => "255.255.0.0"
-        #box.vm.network :private_network, ip: "10.10.0.#{ip_start+i}", :netmask => "255.255.255.0" 
-      	#box.vm.network :private_network, ip: "192.168.100.#{ip_start+i}", :netmask => "255.255.255.0" 
+        box.vm.network :private_network, ip: "172.29.236.#{ip_start+i}", :netmask => "255.255.255.0"
+        box.vm.network :private_network, ip: "10.10.0.#{ip_start+i}", :netmask => "255.255.255.0"
+        box.vm.network :private_network, ip: "192.168.100.#{ip_start+i}", :netmask => "255.255.255.0"
+        box.vm.network :private_network, ip: "172.29.240.#{ip_start+i}", :netmask => "255.255.255.0"
+
 
         # If using Fusion or Workstation
         box.vm.provider :vmware_fusion or box.vm.provider :vmware_workstation do |v|
