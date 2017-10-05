@@ -1,5 +1,5 @@
 # vagrant-ceph
-Vagrant Ceph environment that can be used to bolt onto [vagrant-openstack](https://github.com/OpenStackCookbook/vagrant-openstack)
+Vagrant Ceph environment that can be used to bolt onto [vagrant-openstack](https://github.com/OpenStackCookbook/vagrant-openstack)<br>
 Contributors:
 - Kevin Jackson (@itarchitectkev)
 
