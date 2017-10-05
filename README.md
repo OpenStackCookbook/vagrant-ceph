@@ -4,7 +4,7 @@ Contributors:
 - Kevin Jackson (@itarchitectkev)
 
 # View the demo!
-[![Vagrant Up Demo](https://asciinema.org/a/sPAcxfGUSAYsDJy9LTXGZoLR1.png)](https://asciinema.org/a/sPAcxfGUSAYsDJy9LTXGZoLR1)
+[![Vagrant Up Demo](https://asciinema.org/a/VO0ZsDR2KyElKFNN886sCSvl2.png)](https://asciinema.org/a/VO0ZsDR2KyElKFNN886sCSvl2)
 
 # Requirements
 - Vagrant (recommended 1.8+)
